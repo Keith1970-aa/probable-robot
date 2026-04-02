@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noupe | Business Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); }
+        .terminal { font-family: 'Courier New', Courier, monospace; }
+    </style>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+
+    <nav class="p-6 border-b border-slate-800 flex justify-between items-center">
+        <h1 class="text-2xl font-bold tracking-tighter">NOUPE <span class="text-blue-500">OS</span></h1>
+        <div class="flex items-center gap-4">
+            <span class="flex h-3 w-3 bg-green-500 rounded-full animate-pulse"></span>
+            <p class="text-sm text-slate-400">Business Engine: Active</p>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto p-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <div class="lg:col-span-2 space-y-6">
+            <div class="bg-slate-800 rounded-2xl p-4 h-[550px] border border-slate-700 shadow-2xl overflow-hidden">
+                <iframe 
+                    src="https://poe.com/Noupe?embed=1" 
+                    class="w-full h-full rounded-lg"
+                    frameborder="0">
+                </iframe>
+            </div>
+
+            <div class="p-5 bg-black/50 rounded-2xl border border-slate-700 terminal text-xs text-green-400 shadow-inner">
+                <p class="mb-1 text-slate-500">// SYSTEM LOG: NOUPE AGENTIC PROTOCOL</p>
+                <p>> [SYSTEM]: Noupe initializing business engine...</p>
+                <p>> [LOG]: Scanning for real estate opportunities...</p>
+                <p>> [LOG]: Analyzing community engagement metrics...</p>
+                <p class="animate-pulse">> [ACTION]: Noupe is waiting for your command...</p>
+            </div>
+        </div>
+
+        <div class="space-y-6">
+            <div class="glass border border-slate-700 p-6 rounded-2xl">
+                <h3 class="text-lg font-semibold mb-4">Autonomous Tasks</h3>
+                <ul class="space-y-3 text-sm text-slate-300">
+                    <li class="flex items-center gap-2">✅ Market Research: Active</li>
+                    <li class="flex items-center gap-2">🔄 Lead Gen: Processing...</li>
+                    <li class="flex items-center gap-2">⏳ Evolution: Startup Phase</li>
+                </ul>
+            </div>
+
+            <div class="bg-blue-600 p-6 rounded-2xl shadow-lg">
+                <h3 class="text-lg font-bold italic">"Noupe is building..."</h3>
+                <p class="text-sm mt-2 opacity-90">Building a self-sustaining company from scratch.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
